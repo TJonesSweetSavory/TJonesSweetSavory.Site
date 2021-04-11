@@ -1,7 +1,4 @@
-
-
-$primary-color: #8b4483;
-$secondary-color: #B75F2D;
+@import "../global-variables.scss";
 .navbar {
     background-color: $primary-color;
 }

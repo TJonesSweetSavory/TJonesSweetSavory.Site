@@ -1,6 +1,30 @@
-<nav class="navbar fixed-top navbar-dark">
-    <a class="navbar-brand" href="#">
-      <img src="../../../assets/TJonesSweetSavoryLogoTrim.jpg" width="30" height="30" class="d-inline-block align-top" alt="T. Jones Sweet & Savory Sensations">
-      T. Jones Sweet & Savory Sensations
-    </a>
+<header>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../../../assets/TJonesSweetSavoryLogoTrim.jpg" height="50" class="d-inline-block align-center"
+          alt="T. Jones Sweet & Savory Sensations">
+        T. Jones Sweet & Savory Sensations
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse" [ngClass]="{ 'show': navbarOpen }">
+        <ul class="navbar-nav main-nav" id="nav-list">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="#" routerLinkActive="active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="#" routerLinkActive="active">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="#" routerLinkActive="active">Download</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
+</header>
