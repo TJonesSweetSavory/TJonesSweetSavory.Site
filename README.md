@@ -1,27 +1,11 @@
-# TJonesSweetSavorySite
+# T. Jones Sweet & Savory Sensations
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
+## Deployment Status
 
-## Development server
+[![Netlify Status](https://api.netlify.com/api/v1/badges/02ee8e60-d0b6-447e-8c16-015544512484/deploy-status)](https://app.netlify.com/sites/elastic-sinoussi-1d2f0b/deploys)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Site Details
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- This project was generated with Angular CLI version 11.2.7.
+- URL:  [TJonesSweetSavory.com](https://tjonessweetsavory.com)
+- Contact: [tjonessweetsavory@gmail.com](mailto:tjonessweetsavory@gmail.com)
