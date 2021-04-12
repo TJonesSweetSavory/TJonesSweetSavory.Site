@@ -15,13 +15,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse" [ngClass]="{ 'show': navbarOpen }">
         <ul class="navbar-nav main-nav" id="nav-list">
           <li class="nav-item">
-            <a class="nav-link active" routerLink="#" routerLinkActive="active">Home</a>
+            <a class="nav-link" [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="#" routerLinkActive="active">Pricing</a>
+            <a class="nav-link" routerLink="/about" routerLinkActive="active">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="#" routerLinkActive="active">Download</a>
+            <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact Us</a>
           </li>
         </ul>
       </div>
