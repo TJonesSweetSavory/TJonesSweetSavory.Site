@@ -6,5 +6,6 @@
 
 ## Site Details
 
-- URL:  TJonesSweetSavory.com
-- Contact: tjonessweetsavory@gmail.com
+- This project was generated with Angular CLI version 11.2.7.
+- URL:  [TJonesSweetSavory.com](https://tjonessweetsavory.com)
+- Contact: [tjonessweetsavory@gmail.com](mailto:tjonessweetsavory@gmail.com)
