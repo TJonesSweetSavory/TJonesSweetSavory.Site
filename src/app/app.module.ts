@@ -8,6 +8,10 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
+import { MyStoryComponent } from './pages/my-story/my-story.component';
+import { MissionComponent } from './pages/mission/mission.component';
+import { VisionComponent } from './pages/vision/vision.component';
+import { MenuComponent } from './pages/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { AboutComponent } from './pages/about/about.component';
     FooterComponent,
     HomeComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    MyStoryComponent,
+    MissionComponent,
+    VisionComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
