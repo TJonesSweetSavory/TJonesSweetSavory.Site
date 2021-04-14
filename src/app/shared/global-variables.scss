@@ -1,2 +1,23 @@
 $primary-color: #8b4483;
 $secondary-color: #B75F2D;
+
+h1 {
+    color: $secondary-color;
+    text-align: center;
+}
+h2 {
+    color: $secondary-color;
+    text-align: center;
+}
+h3 {
+    color: $secondary-color;
+    text-align: center;
+}
+h4 {
+    color: $secondary-color;
+}
+
+
+p {
+    color: $primary-color;
+}
