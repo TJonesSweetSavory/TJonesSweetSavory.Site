@@ -2,3 +2,9 @@
 .navbar {
     background-color: $primary-color;
 }
+
+@media (max-width: 500px) {
+    .brandName {
+        font-size: 0%;
+    }
+}
