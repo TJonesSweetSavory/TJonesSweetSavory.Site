@@ -2,6 +2,9 @@
 .navbar {
     background-color: $primary-color;
 }
+.navbar-brand {
+    padding: 0px;
+}
 
 @media (max-width: 500px) {
     .brandName {
