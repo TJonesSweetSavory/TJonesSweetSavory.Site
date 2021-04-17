@@ -1,23 +1,32 @@
 $primary-color: #8b4483;
-$secondary-color: #B75F2D;
+$secondary-color: #B7602D;
 
 h1 {
-    color: $secondary-color;
-    text-align: center;
+  color: $secondary-color;
+  text-align: center;
 }
 h2 {
-    color: $secondary-color;
-    text-align: center;
+  color: $secondary-color;
+  text-align: center;
 }
 h3 {
-    color: $secondary-color;
-    text-align: center;
+  color: $secondary-color;
+  text-align: center;
 }
 h4 {
-    color: $secondary-color;
+  color: $secondary-color;
 }
 
-
 p {
-    color: $primary-color;
+  color: $primary-color;
+}
+
+.body-section {
+  padding: 16px;
+}
+
+@media (min-width: 1000px) {
+    .body-section {
+        padding: 16px 30px;
+    }
 }
