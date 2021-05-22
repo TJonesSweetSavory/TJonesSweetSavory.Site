@@ -1,3 +1,5 @@
+# Action to optimize images automatically
+# https://github.com/crush-pics/crush-pics-github-action
 name: Crush Images
 on:
   pull_request:
