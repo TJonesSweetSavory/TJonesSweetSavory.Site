@@ -29,6 +29,13 @@ p {
   padding: 16px;
 }
 
+.body-content {
+  max-width: 1150px;
+  margin: auto;
+  text-align: justify;
+  padding: 20px 0px;
+}
+
 @media (min-width: 1000px) {
     .body-section {
         padding: 16px 30px;
