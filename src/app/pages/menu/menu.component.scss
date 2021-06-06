@@ -3,7 +3,17 @@
 h3 {
     text-align: left;
 }
+
 li {
-    list-style-type: none;
+    list-style: none;
     color: $primary-color;
+    list-style-position: inside;
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+.menu-img {
+     float: right;
+     max-height: 400px;
+     width: auto;
 }
