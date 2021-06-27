@@ -6,11 +6,11 @@
 
 ## Site Details
 
-- Future URL:  [TJonesSweetSavory.com](https://tjonessweetsavory.com)
-- Development Preview Link: [https://elastic-sinoussi-1d2f0b.netlify.app/](https://elastic-sinoussi-1d2f0b.netlify.app/)
+- Production URL:  [TJonesSweetSavory.com](https://tjonessweetsavory.com)
 
 ## Technical Details
 
-- This project is built and maintained using Angular 11 and Bootstrap 4.6
+- This project was developed and maintained using Angular
+- Styled with Bootstrap
 - Built and hosted on Netlify
-- Uses Snyk to scan for vulnerabilities
+- Uses Snyk to scan for vulnerabilities and keep packages up to date
