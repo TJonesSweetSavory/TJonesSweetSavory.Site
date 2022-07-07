@@ -12,6 +12,7 @@ import { MyStoryComponent } from './pages/my-story/my-story.component';
 import { MissionComponent } from './pages/mission/mission.component';
 import { VisionComponent } from './pages/vision/vision.component';
 import { MenuComponent } from './pages/menu/menu.component';
+import { SuccessComponent } from './pages/success/success.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MenuComponent } from './pages/menu/menu.component';
     MyStoryComponent,
     MissionComponent,
     VisionComponent,
-    MenuComponent
+    MenuComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
