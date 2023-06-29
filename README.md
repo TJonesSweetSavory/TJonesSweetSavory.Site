@@ -6,7 +6,7 @@
 
 ## Site Details
 
-- Production URL:  [TJonesSweetSavory.com](https://tjonessweetsavory.com)
+- Production URL: [TJonesSweetSavory.com](https://tjonessweetsavory.com)
 
 ## Technical Details
 
