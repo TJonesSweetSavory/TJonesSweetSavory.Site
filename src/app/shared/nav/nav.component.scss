@@ -1,13 +1,25 @@
 @import "../global-variables.scss";
 .navbar {
-    background-color: $primary-color;
+  background-color: $primary-color;
+
+  a {
+    color: white;
+  }
+
+  .nav-link {
+    color: #ffffff8c;
+  }
+
+  .active {
+    color: white;
+  }
 }
 .navbar-brand {
-    padding: 0px;
+  padding: 0px;
 }
 
 @media (max-width: 500px) {
-    .brandName {
-        font-size: 0%;
-    }
+  .brandName {
+    font-size: 0%;
+  }
 }

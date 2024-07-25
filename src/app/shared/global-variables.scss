@@ -1,5 +1,5 @@
 $primary-color: #8b4483;
-$secondary-color: #B7602D;
+$secondary-color: #b7602d;
 
 h1 {
   color: $secondary-color;
@@ -38,7 +38,7 @@ p {
 }
 
 @media (min-width: 1000px) {
-    .body-section {
-        padding: 16px 30px;
-    }
+  .body-section {
+    padding: 16px 30px;
+  }
 }
