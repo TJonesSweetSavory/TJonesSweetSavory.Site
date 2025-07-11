@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/TJonesSweetSavory-Site"
+  publish = "dist/TJonesSweetSavory-Site/browser"
   command = "ng build --configuration production"
 [[redirects]]
   from = "/*"
