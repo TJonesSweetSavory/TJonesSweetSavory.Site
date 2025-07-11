@@ -1,4 +1,4 @@
-@import "../../shared/global-variables.scss";
+@use "../../shared/global-variables.scss";
 
 h3 {
     text-align: left;
@@ -6,7 +6,7 @@ h3 {
 
 li {
     list-style: none;
-    color: $primary-color;
+    color: global-variables.$primary-color;
     list-style-position: inside;
     padding-left: 1.5em;
     text-indent: -1.5em;

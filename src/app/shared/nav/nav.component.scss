@@ -1,6 +1,6 @@
-@import "../global-variables.scss";
+@use "../global-variables.scss";
 .navbar {
-  background-color: $primary-color;
+  background-color: global-variables.$primary-color;
 
   a {
     color: white;

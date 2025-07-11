@@ -1,7 +1,7 @@
-@import "../global-variables.scss";
+@use "../global-variables.scss";
 
 .footer {
-    background-color: $primary-color;
+    background-color: global-variables.$primary-color;
     text-align: center;
     color: rgba(white, .55);
 }
